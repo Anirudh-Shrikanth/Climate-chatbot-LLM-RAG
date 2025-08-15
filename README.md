@@ -19,13 +19,16 @@ Some suggested questions are:
 9. How hot was it in Phoenix on July 2023? What is the value on July 1?
 
 NOTE 1:
+
 Remember to add your "Gemini flash 2.0" API key in: (https://aistudio.google.com/apikey)
 1. Line 1982 in ClimateRAGChatbot.py and
-2. Line 11 of GUI.py
+2. Line 11 of GUI.py 
+
 before you run the program.
 
 NOTE 2:
+
 The .ipynb file the same code as ClimateRAGChatbot.py, but provided just in case you want to take a look at the outputs cell by cell that has already been provided for your convenience.
-It is **not** recommended to run the notebook as this will finish the given Gemini API token limits and would also take a lot of time.
+It is **not** recommended to run the notebook as this will finish the given Gemini API token limits and would also take a lot of time. Please use the GUI in "NOTE 1" to run the chatbot.
 
 Kindly create a key if you don't have one already. I cannot provide this as it is a security risk.
