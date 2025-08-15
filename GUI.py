@@ -3,13 +3,12 @@ import os
 import streamlit as st
 from ClimateRAGChatbot import load_or_initialize_rag, ClimateDocument
 import sys
-
-import functions
-sys.modules['__main__'].ClimateDocument = functions.ClimateDocument
+import ClimateRAGChatbot
+sys.modules['__main__'].ClimateDocument = ClimateRAGChatbot.ClimateDocument
 
 # Set your Gemini API key (or load from .env, etc.)
-# GEMINI_API_KEY = "AIzaSyCF4kAqP2Y8ZB8Xjyhbp0LXMlxEidpPomk"
-GEMINI_API_KEY = "AIzaSyDJGIusm7fXTxBXC0f4oW-15YKfhDSahC8"
+
+GEMINI_API_KEY = "your_api_key"
 
 TOP_50_CITIES = [
     "New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX", "Phoenix, AZ",

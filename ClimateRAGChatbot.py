@@ -1979,8 +1979,7 @@ if __name__ == "__main__":
     "Cincinnati, OH", "St. Louis, MO", "Raleigh, NC", "Salt Lake City, UT", "Buffalo, NY"
     ]
 
-    #GEMINI_API_KEY = "AIzaSyCF4kAqP2Y8ZB8Xjyhbp0LXMlxEidpPomk"
-    GEMINI_API_KEY = "AIzaSyDJGIusm7fXTxBXC0f4oW-15YKfhDSahC8"
+    GEMINI_API_KEY = "your_api_key"
 
     # Load or initialize RAG
     rag = load_or_initialize_rag(TOP_50_CITIES, GEMINI_API_KEY, "climate_rag_50_cities")
@@ -1990,19 +1989,14 @@ if __name__ == "__main__":
 
     queries = [
         "What was the temperature in Phoenix in July 2023?",
-        # "Phoenix temperature July 2023 historical weather data 07/2023",
-        # "Compare rainfall between Seattle and Phoenix in 2022",
-        # "What's the weather forecast for New York?",
-        # "Show me the coldest day in Chicago in January 2023",
-        # "What was the hottest day in Houston during August 2024?",
-        # "What is the maximum temparature in New York in July 2022?",
-        # "Compare the difference between Maximum Temparatures in New Orleans in 2023 and Phoenix in 2022",
-        # "Compare the difference between Maximum Temparatures in Phoenix in 2022 and New Orleans in 2023",
-        # "What was the temparature in New Orleans in 2023?",
-        # "What is the average rainfall in Raleigh, NC in March 2021?",
-        # "Seattle rainfall in March 2022. How much rainfall was there on March 2nd?"
-        # "What was the maximum temperature in Phoenix on July 2023? On which date did this occur?",
-        #"How hot was it in Phoenix on July 2023? What is the value on July 1?"
+        "What's the weather forecast for New York?",
+        "Show me the coldest day in Chicago in January 2023",
+        "What was the hottest day in Houston during August 2024?",
+        "What is the maximum temparature in New York in July 2022?",
+        "Compare the difference between Maximum Temparatures in New Orleans in 2023 and Phoenix in 2022",
+        "Seattle rainfall in March 2022. How much rainfall was there on March 2nd?",
+        "What was the maximum temperature in Phoenix on July 2023? On which date did this occur?",
+        "How hot was it in Phoenix on July 2023? What is the value on July 1?"
     ]
 
     print("\nRunning example queries:")
