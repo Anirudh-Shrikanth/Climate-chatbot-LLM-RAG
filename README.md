@@ -28,7 +28,7 @@ before you run the program.
 
 NOTE 2:
 
-The .ipynb file the same code as ClimateRAGChatbot.py, but provided just in case you want to take a look at the outputs cell by cell that has already been provided for your convenience.
-It is **not** recommended to run the notebook as this will finish the given Gemini API token limits and would also take a lot of time. Please use the GUI in "NOTE 1" to run the chatbot.
+The LLMWeatherProject_outputs.ipynb file the same code as ClimateRAGChatbot.py, but provided just in case you want to take a look at the outputs cell by cell that has already been provided for your convenience.
+It is **not** recommended to run the notebook as this will finish the given Gemini API token limits and would also take a lot of time. Please use the GUI in "NOTE 1" to run the chatbot if needed.
 
 Kindly create a key if you don't have one already. I cannot provide this as it is a security risk.
