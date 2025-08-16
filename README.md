@@ -4,7 +4,7 @@
 Climate data analysis presents unique challenges due to the massive scale, temporal complexity, and geographic distribution of meteorological datasets. Traditional database approaches struggle with natural language queries that require contextual understanding of location, time, and weather phenomena. This project presents a novel hybrid Retrieval-Augmented Generation (RAG) system specifically designed for climate data analysis, combining dense vector retrieval with sparse keyword matching and cross-encoder reranking. Our system integrates historical NOAA weather station data spanning 2019-2024 across 50 major US cities with real-time weather APIs, creating a comprehensive knowledge base of over 198,123 structured climate documents. The hybrid retrieval architecture achieves superior performance in location-specific temporal queries, with experimental results showing 86.11% accuracy in multi-location comparisons in date-filtered queries. The system successfully handles complex analytical questions such as ”Compare the difference between maximum temperatures in Phoenix in 2022 and New Orleans in 2023,” demonstrating practical applications for climate research, urban planning, and environmental monitoring.
 
 ## To run the program
-Download all the files into one single directory. On your terminal, please run the command "streamlit run GUI.py".
+Download all the files into one single directory. On your terminal, please navigate to this folder and run the command "streamlit run GUI.py".
 This should spin up the streamlit UI interface where you can ask climate related questions. Once you type in a question, please click on the "Get Answer" button to get a response.
 
 Some suggested questions are:
